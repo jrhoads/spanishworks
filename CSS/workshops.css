@@ -1,0 +1,86 @@
+#workshops-content {
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#workshops-content h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    font-size: 40px;
+}
+
+#workshop {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+#workshops-content h2 {
+    color: rgb(43, 43, 43);
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 25px;
+    padding-left: 10px;
+    border-left: 5px solid rgb(43, 43, 43);
+    max-width: 900px;
+}
+
+#workshops-content h3 {
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    font-size: 30px;
+}
+
+#workshops-content p {
+    color: rgb(43, 43, 43);
+    font-size: 20px;
+    padding-left: 10px;
+    border-left: 5px solid rgb(43, 43, 43);
+    margin-left: 20px;
+}
+
+#details-title {
+    margin-left: 50px;
+}
+
+#detail-list {
+    list-style: unset;
+    font-size: 20px;
+    color: rgb(43, 43, 43);
+    width: 50%;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    #details-title {
+        margin-left: 10px;
+    }
+
+    #detail-list {
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 400px) { 
+    #details-title {
+        margin-left: 10px;
+    }
+
+    #detail-list {
+        padding-left: 20px;
+        padding-bottom: 30px;
+    }
+}

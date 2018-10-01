@@ -1,0 +1,22 @@
+#tutoring-content {
+    line-height: 1;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(43, 43, 43);
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+}
+
+
+@media only screen and (max-width: 400px) { 
+
+}

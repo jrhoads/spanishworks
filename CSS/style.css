@@ -1,0 +1,224 @@
+#home-section-title {
+	line-height: 1;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	color: rgb(43, 43, 43);
+}
+
+#home-section-grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	width: 70%;
+	margin: 0 auto;
+	line-height: 1;
+	margin-top: 20px;
+	grid-column-gap: 20px;
+	color: rgb(58, 58, 58);
+}
+
+#title-main-home-section {
+	color: rgb(43, 43, 43);
+	font-size: 25px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#title-side-home-section {
+	font-size: 25px;
+	padding-left: 10%;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.regularText-home-section {
+	padding-left: 1%;
+	width: 95%;
+	line-height: 1.4;
+	font-size: 20px;
+}
+
+#contact-phone {
+	border-left: 3px solid rgb(43, 43, 43);
+	padding-left: 10px;
+}
+
+#contact-email {
+	border-left: 3px solid rgb(43, 43, 43);
+	padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#main-founder-section {
+	line-height: 1;
+}
+
+#founder-section {
+	margin-top: 50px;
+	line-height: 1;
+	width: 60%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+}
+
+#founder-title-rebecca {
+	padding-left: 5%;
+	font-size: 25px;
+	font-weight: bold;
+	color: rgb(43, 43, 43);
+	padding-bottom: 20px;
+	padding-top: 30px;
+}
+
+.founder-divider {
+	padding-top: 3px;
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+	background-color: rgb(43, 43, 43);
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#founder-title {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-top: 60px;
+	color: rgb(43, 43, 43);
+}
+
+#founder-picture {
+	margin-top: 5%;
+	width: 250px;
+	border: 8px solid rgb(43, 43, 43);
+	border-radius: 50%;
+	display: block;
+	float: right;
+	margin-right: 40px;
+}
+
+#founder-name {
+	text-align: center;
+	color: rgb(43, 43, 43);
+	padding-bottom: 20px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#founder-biotext {
+	font-size: 20px;
+	color: rgb(43, 43, 43);
+	display: block;
+	margin: 0 auto;
+	line-height: 1.4;
+	border-left: 4px solid rgb(43, 43, 43);
+	padding-left: 40px;
+}
+
+
+
+
+
+
+#customers-container {
+	background: linear-gradient(rgb(209, 209, 209), rgb(165, 165, 165));
+	width: 100%;
+	margin-top: 30px;
+	line-height: 1;
+}
+
+#customers-title {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#customers-grid {
+	margin: 0 auto;
+	width: 60%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+	#founder-section {
+		display: block;
+	}
+
+	#founder-picture {
+		margin: 0 auto;
+		width: 250px;
+		float: none;
+	}
+}
+
+
+@media only screen and (max-width: 800px) {
+	#home-section-grid {
+		display: block;
+		width: 70%;
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	#about-text {
+		padding-bottom: 20px;
+		padding-right: 15px;
+		border-right: 4px solid rgb(43, 43, 43);
+	}
+
+	#contact-phone {
+		border-left: 4px solid rgb(43, 43, 43);
+	}
+
+	#contact-email {
+		border-left: 4px solid rgb(43, 43, 43);
+	}
+}
+
+
+@media only screen and (max-width: 400px) { 
+	#founder-picture {
+		width: 150px;
+	}
+	#founder-section {
+		width: 90%;
+	}
+}
