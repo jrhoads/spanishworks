@@ -119,7 +119,7 @@
 	font-weight: bold;
 }
 
-#founder-biotext {
+.biotext {
 	font-size: 20px;
 	color: rgb(43, 43, 43);
 	display: block;
@@ -127,11 +127,8 @@
 	line-height: 1.4;
 	border-left: 4px solid rgb(43, 43, 43);
 	padding-left: 40px;
+	padding-bottom: 20px;
 }
-
-
-
-
 
 
 #customers-container {

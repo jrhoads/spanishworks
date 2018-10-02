@@ -20,3 +20,12 @@
     border-left: 5px solid rgb(43, 43, 43);
     max-width: 900px;
 }
+
+.about-detail ul {
+  list-style: disc;
+  padding-left: 40px;
+}
+
+.about-detail ul>li{
+	padding-left:20px;
+}
